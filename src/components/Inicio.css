@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 50px;
+  margin-top: 100px;
 }
 
 .inicioImg {
@@ -13,12 +13,28 @@
 
 .iconColor {
   margin: 10px;
-  width: 30px;
-  color: #FFB703;
+  font-size: 50px;
+  color: #37B6AE;
+}
+
+.contato {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .contato span {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+  width: 300px;
+  margin: 0 10px;
+}
+
+@media(max-width:1280px) {
+  .contato {
+    flex-direction: column;
+  }
 }

@@ -2,6 +2,8 @@ import React from 'react'
 import './App.css'
 import { BrowserRouter as Router, NavLink } from 'react-router-dom'
 import Routes from './Routes'
+import { FaReact } from 'react-icons/fa'
+import { SiJavascript, SiHtml5, SiCss3 } from 'react-icons/si'
 
 function App() {
   return (
@@ -43,14 +45,19 @@ function App() {
         </header>
 
 
-        <main className="main container">
+        <main className="main">
 
           <Routes />
 
         </main>
       </Router>
       <footer className="footer">
-        footer
+        <h4>Desenvolvido com</h4>
+        <FaReact className='react' />
+        <SiJavascript className='javascript' />
+        <SiHtml5 className='html' />
+        <SiCss3 className='css' />
+        <h4>por Maurício Carrion</h4>
       </footer>
     </div>
   )
