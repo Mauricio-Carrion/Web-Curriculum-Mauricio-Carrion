@@ -6,10 +6,23 @@
 }
 
 .Skills ul {
+  text-align: center;
   margin: 40px;
   padding: 0;
 }
 
 .Skills li {
-  margin: 20px 0;
+  display: inline-flex;
+  margin: 20px;
+}
+
+.Skills svg {
+  margin: 0 5px;
+  color: #37B6AE;
+}
+
+@media(max-width:560px) {
+  .Skills li {
+    display: flex;
+  }
 }

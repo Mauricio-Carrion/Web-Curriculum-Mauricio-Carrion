@@ -3,7 +3,32 @@ import './Skills.css'
 import { IoHardwareChip } from 'react-icons/io5'
 import { HiComputerDesktop } from 'react-icons/hi2'
 import { BiSupport, BiCodeAlt } from 'react-icons/bi'
-import { FaServer } from 'react-icons/fa'
+import {
+  FaServer,
+  FaNetworkWired,
+  FaLinux,
+  FaUbuntu,
+  FaWindows,
+  FaHtml5,
+  FaCss3Alt,
+  FaReact,
+  FaNodeJs
+} from 'react-icons/fa'
+import { BsFillGearFill } from 'react-icons/bs'
+import { GiCircuitry, GiMegaphone } from 'react-icons/gi'
+import { MdRouter, MdNetworkCheck, MdDesignServices } from 'react-icons/md'
+import {
+  SiMicrosoftoffice,
+  SiUbiquiti,
+  SiJavascript,
+  SiBootstrap,
+  SiMysql,
+  SiAdobephotoshop
+} from 'react-icons/si'
+import { RiEnglishInput } from 'react-icons/ri'
+import { AiOutlineConsoleSql, AiOutlineShareAlt } from 'react-icons/ai'
+import { ImFire } from 'react-icons/im'
+import { TbApi } from 'react-icons/tb'
 
 const Skills = () => {
   return (
@@ -11,36 +36,34 @@ const Skills = () => {
       <ul>
         <li><IoHardwareChip /> Hardware</li>
         <li><BiCodeAlt />Software</li>
-        <li><BiSupport />Suporte ao cliente</li>
         <li><FaServer />Suporte a servidores</li>
         <li><HiComputerDesktop />Suporte a desktop</li>
-        <li>Suporte HelpDesk</li>
-        <li>Configuração de sistemas</li>
-        <li>Informática</li>
-        <li>RouterOS</li>
-        <li>Mikrotik</li>
-        <li>Pacote Office</li>
-        <li>Rede</li>
-        <li>Tecnologias de Rede sem fio</li>
-        <li>Análise de Rede</li>
-        <li>Inglês Básico</li>
-        <li>Linux</li>
-        <li>Ubuntu</li>
-        <li>Windows</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React.js</li>
-        <li>Node.js</li>
-        <li>BootStrap</li>
-        <li>SQL</li>
-        <li>FirebirdSQL</li>
-        <li>MySQL</li>
-        <li>Rest</li>
-        <li>Design</li>
-        <li>Photoshop</li>
-        <li>Marketing</li>
-        <li>Social Media</li>
+        <li><BiSupport />Suporte HelpDesk</li>
+        <li><BsFillGearFill />Configuração de sistemas</li>
+        <li><GiCircuitry />Informática</li>
+        <li><MdRouter />Mikrotik</li>
+        <li><SiMicrosoftoffice />Pacote Office</li>
+        <li><FaNetworkWired />Rede</li>
+        <li><SiUbiquiti />Tecnologias de Rede sem fio</li>
+        <li><MdNetworkCheck />Análise de Rede</li>
+        <li><RiEnglishInput />Inglês Básico</li>
+        <li><FaLinux />Linux</li>
+        <li><FaUbuntu />Ubuntu</li>
+        <li><FaWindows />Windows</li>
+        <li><FaHtml5 />HTML</li>
+        <li><FaCss3Alt />CSS</li>
+        <li><SiJavascript />JavaScript</li>
+        <li><FaReact />React.js</li>
+        <li><FaNodeJs />Node.js</li>
+        <li><SiBootstrap />BootStrap</li>
+        <li><AiOutlineConsoleSql />SQL</li>
+        <li><ImFire />FirebirdSQL</li>
+        <li><SiMysql />MySQL</li>
+        <li><TbApi />Rest</li>
+        <li><MdDesignServices />Design</li>
+        <li><SiAdobephotoshop />Photoshop</li>
+        <li><GiMegaphone />Marketing</li>
+        <li><AiOutlineShareAlt />Social Media</li>
       </ul>
     </div>
   )
