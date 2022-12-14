@@ -11,7 +11,7 @@ const Inicio = () => {
       <div className="contato">
         <span>
           <AiOutlineMail className="iconColor" />
-          <a href="mailto:mauricio.sjn@gmail.com">MAURICIO.SJN@GMAIL.COM</a>
+          <a href="mailto:mauricio.sjn@gmail.com">mauricio.sjn@gmail.com</a>
         </span>
 
         <span>

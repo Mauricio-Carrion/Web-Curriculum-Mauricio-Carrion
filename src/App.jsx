@@ -16,14 +16,14 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App smallHeader">
       <Router>
         <header className="header">
           <div>
             <h3>Maurício Carrion</h3>
-            <ImMenu className='iconWhite' onClick={handleToggle} />
+            <ImMenu className='iconWhite' onClick={handleToggle} href='#' />
           </div>
-          <nav className="nav">
+          <nav className="nav noneNav">
             <NavLink to='/'>
               Início
             </NavLink>

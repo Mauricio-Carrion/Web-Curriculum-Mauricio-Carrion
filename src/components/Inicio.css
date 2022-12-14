@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .inicioImg {
@@ -37,11 +37,22 @@
   .contato {
     flex-direction: column;
   }
+
+  .contato span {
+    justify-content: start;
+  }
 }
 
 @media(max-width:830px) {
   .inicioImg {
     width: 350px;
+    border-radius: 100%;
+  }
+}
+
+@media(max-width:360px) {
+  .inicioImg {
+    width: 250px;
     border-radius: 100%;
   }
 }
