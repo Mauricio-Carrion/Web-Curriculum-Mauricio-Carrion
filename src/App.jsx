@@ -4,43 +4,45 @@ import { BrowserRouter as Router, NavLink } from 'react-router-dom'
 import Routes from './Routes'
 import { FaReact } from 'react-icons/fa'
 import { SiJavascript, SiHtml5, SiCss3 } from 'react-icons/si'
+import { ImMenu } from 'react-icons/im'
 
 function App() {
+  const handleToggle = () => {
+    const app = document.querySelector('.App')
+    const nav = document.querySelector('.nav')
+
+    nav.classList.toggle('noneNav')
+    app.classList.toggle('smallHeader')
+  }
+
   return (
     <div className="App">
       <Router>
         <header className="header">
-          <h3>Maurício Carrion</h3>
+          <div>
+            <h3>Maurício Carrion</h3>
+            <ImMenu className='iconWhite' onClick={handleToggle} />
+          </div>
           <nav className="nav">
-            <li>
-              <NavLink to='/'>
-                Início
-              </NavLink>
-            </li>
+            <NavLink to='/'>
+              Início
+            </NavLink>
 
-            <li>
-              <NavLink to='/biografia'>
-                Biografia
-              </NavLink>
-            </li>
+            <NavLink to='/biografia'>
+              Biografia
+            </NavLink>
 
-            <li>
-              <NavLink to='/experiencias'>
-                Experiências
-              </NavLink>
-            </li>
+            <NavLink to='/experiencias'>
+              Experiências
+            </NavLink>
 
-            <li>
-              <NavLink to='/formacao'>
-                Profissional
-              </NavLink>
-            </li>
+            <NavLink to='/formacao'>
+              Profissional
+            </NavLink>
 
-            <li>
-              <NavLink to='/skills'>
-                Skills
-              </NavLink>
-            </li>
+            <NavLink to='/skills'>
+              Skills
+            </NavLink>
           </nav>
         </header>
 

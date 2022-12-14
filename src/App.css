@@ -29,6 +29,7 @@ body {
     "header"
     "body"
     "footer";
+  transition: all 0.5s;
 }
 
 .header {
@@ -37,6 +38,14 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #37B6AE;
+}
+
+.smallHeader {
+  grid-template-rows: 80px 1fr 50px !important;
+}
+
+.noneNav {
+  display: none !important;
 }
 
 .header h3 {
@@ -59,20 +68,13 @@ body {
 
 .nav {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-}
-
-.nav li {
-  margin: 0 40px;
+  justify-content: center;
 }
 
 .nav a {
   color: #fff;
   font-weight: 700;
-  padding: 20px 40px 30px 40px;
+  padding: 30px 30px;
   border-radius: 10px 10px 0 0;
 }
 
@@ -105,6 +107,12 @@ body {
   margin: 0 5px;
 }
 
+.iconWhite {
+  display: none;
+  color: #fff;
+  font-size: 30px;
+}
+
 .react {
   color: #5ED3F3;
 }
@@ -119,4 +127,56 @@ body {
 
 .css {
   color: #026EB4
+}
+
+@media(max-width:830px) {
+  .nav a {
+    padding: 30px 10px;
+  }
+}
+
+
+@media(max-width:580px) {
+  .footer {
+    font-size: 15px;
+  }
+
+  .nav {
+    flex-direction: column;
+  }
+
+  .nav a {
+    border-radius: 0;
+  }
+
+  .App {
+    grid-template-rows: 500px 1fr 50px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: inherit;
+  }
+
+  .header h3 {
+    border-right: none;
+    align-self: center;
+    margin: 20px 0;
+  }
+
+  .iconWhite {
+    display: block;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .header div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 50px;
+  }
+
 }
