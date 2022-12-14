@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import { BrowserRouter as Router, NavLink } from 'react-router-dom'
+import { HashRouter as Router, NavLink } from 'react-router-dom'
 import Routes from './Routes'
 import { FaReact } from 'react-icons/fa'
 import { SiJavascript, SiHtml5, SiCss3 } from 'react-icons/si'
