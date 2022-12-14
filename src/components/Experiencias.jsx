@@ -23,9 +23,12 @@ const Experiencias = () => {
           Virtualização;
         </li>
 
+        <hr />
+
         <li>
           <h4>Técnico em Tecnologia da Informação - Mikrus Informática</h4>
-          Maio 2021 - Junho 2021
+          <strong>Maio 2021 - Junho 2021 - São José do Norte, RS</strong>
+          <br />
           Manutenção de computadores, notebooks e outros;
           Montagem e configuração de servidores Linux;
           Análise de upgrade computadores ;
@@ -35,9 +38,12 @@ const Experiencias = () => {
           Configuração de email corporativo;
         </li>
 
+        <hr />
+
         <li>
           <h4>Suporte HelpDesk - Vetorial internet</h4>
-          Maio 2017 - Abril 2021 - Rio Grande, RS
+          <strong>Maio 2017 - Abril 2021 - Rio Grande, RS</strong>
+          <br />
           Suporte HelpDesk;
           Suporte técnico em redes para cliente final;
           Configuração de e-mail corporativo;
@@ -50,18 +56,24 @@ const Experiencias = () => {
           Fornecer assistência a infraestrutura tecnológica, garantir o funcionamento de ferramentas, máquinas/equipamentos da empresa;
         </li>
 
+        <hr />
+
         <li>
           <h4>Auxiliar de Eleições - Inova Tecnologia</h4>
-          Setembro 2016 - Outubro 2016 - São José do Norte, RS
+          <strong>Setembro 2016 - Outubro 2016 - São José do Norte, RS</strong>
+          <br />
           Auxiliar de eleições/Técnico de urna;
           Manutenção de Hardware em urnas eletrônicas;
           Substituição de urnas durante as eleições;
           Suporte técnico em sobreaviso durante as eleições;
         </li>
 
+        <hr />
+
         <li>
           <h4>Técnico De hardware - Espaço VIP(Ultranet)</h4>
-          Fevereiro 2016 - Maio 2016 - São José do Norte, RS
+          <strong>Fevereiro 2016 - Maio 2016 - São José do Norte, RS</strong>
+          <br />
           Técnico de Hardware de Informática;
           Manutenção e montagem de computadores;
           Montagem e configuração de servidores;
@@ -73,10 +85,13 @@ const Experiencias = () => {
           Mikrotik;
         </li>
 
+        <hr />
+
         <li>
           <h4>Estagiário - TRE RS</h4>
-          Setembro 2015 - Dezembro 2015 - São José do Norte, RS
-          Auxílio ao [cargo] no desenvolvimento das operações e resoluções de problemas, prestando um serviço de atendimento ao cliente de ponta;
+          <strong>Setembro 2015 - Dezembro 2015 - São José do Norte, RS</strong>
+          <br />
+          Auxílio no desenvolvimento das operações e resoluções de problemas, prestando um serviço de atendimento ao cliente de ponta;
           Manutenção e configuração de urnas eletrônicas;
           Manuseio de documentos judiciais e eleitorais;
           Interação com MP/RS;

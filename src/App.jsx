@@ -37,7 +37,7 @@ function App() {
             </NavLink>
 
             <NavLink to='/formacao'>
-              Profissional
+              Cursos
             </NavLink>
 
             <NavLink to='/skills'>
