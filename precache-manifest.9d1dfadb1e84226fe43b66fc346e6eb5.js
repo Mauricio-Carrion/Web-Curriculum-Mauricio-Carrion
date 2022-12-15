@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/Web-Curriculum-Mauricio-Carrion/static/media/Quicksand-Medium.890d9ed9.ttf"
   },
   {
-    "revision": "c149374b45d89e71b952fa63410c2023",
+    "revision": "fec7a80dec50bf424c70165b37d872b8",
     "url": "/Web-Curriculum-Mauricio-Carrion/index.html"
   }
 ];
