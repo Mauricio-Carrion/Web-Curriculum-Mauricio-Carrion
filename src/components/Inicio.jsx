@@ -10,23 +10,23 @@ const Inicio = () => {
       <h1>Maurício Carrion</h1>
       <div className="contato">
         <span>
-          <AiOutlineMail className="iconColor" />
-          <a href="mailto:mauricio.sjn@gmail.com">mauricio.sjn@gmail.com</a>
-        </span>
-
-        <span>
           <AiOutlinePhone className="iconColor" />
           <a href="tel:+5553992088789">(53) 9 9208-8789</a>
         </span>
 
         <span>
-          <AiFillLinkedin className="iconColor" />
-          <a href="https://www.linkedin.com/in/mauriciocarrionsjn/" target="_blank" rel="noopener noreferrer">mauriciocarrionsjn</a>
+          <AiOutlineWhatsApp className="iconColor" />
+          <a href="https://wa.me/5553992088789" target="_blank" rel="noopener noreferrer">(53) 9 9208-8789</a>
         </span>
 
         <span>
-          <AiOutlineWhatsApp className="iconColor" />
-          <a href="https://wa.me/5553992088789" target="_blank" rel="noopener noreferrer">(53) 9 9208-8789</a>
+          <AiOutlineMail className="iconColor" />
+          <a href="mailto:mauricio.sjn@gmail.com">mauricio.sjn@gmail.com</a>
+        </span>
+
+        <span>
+          <AiFillLinkedin className="iconColor" />
+          <a href="https://www.linkedin.com/in/mauriciocarrionsjn/" target="_blank" rel="noopener noreferrer">mauriciocarrionsjn</a>
         </span>
       </div>
     </div>

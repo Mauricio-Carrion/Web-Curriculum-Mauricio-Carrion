@@ -7,23 +7,27 @@ import { SiJavascript, SiHtml5, SiCss3 } from 'react-icons/si'
 import { ImMenu } from 'react-icons/im'
 
 function App() {
-  const handleToggle = () => {
-    const app = document.querySelector('.App')
+  const handleMainClick = () => {
     const nav = document.querySelector('.nav')
+    if (nav.classList.contains('showNav')) {
+      handleToggle()
+    }
+  }
 
-    nav.classList.toggle('noneNav')
-    app.classList.toggle('smallHeader')
+  const handleToggle = () => {
+    const nav = document.querySelector('.nav')
+    nav.classList.toggle('showNav')
   }
 
   return (
-    <div className="App smallHeader">
+    <div className="App">
       <Router>
         <header className="header">
           <div>
             <h3>Maurício Carrion</h3>
-            <ImMenu className='iconWhite' onClick={handleToggle} href='#' />
+            <ImMenu className='iconWhite' onClick={handleToggle} />
           </div>
-          <nav className="nav noneNav">
+          <nav className="nav">
             <NavLink to='/'>
               Início
             </NavLink>
@@ -47,7 +51,7 @@ function App() {
         </header>
 
 
-        <main className="main">
+        <main className="main" onTouchStart={handleMainClick}>
 
           <Routes />
 
@@ -61,7 +65,7 @@ function App() {
         <SiCss3 className='css' />
         <h4>por Maurício Carrion</h4>
       </footer>
-    </div>
+    </div >
   )
 }
 
