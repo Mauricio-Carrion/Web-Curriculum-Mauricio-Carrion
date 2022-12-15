@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Web-Curriculum-Mauricio-Carrion/precache-manifest.9d1dfadb1e84226fe43b66fc346e6eb5.js"
+  "/Web-Curriculum-Mauricio-Carrion/precache-manifest.3299605e5bba80d510c8cb95c51c34a8.js"
 );
 
 workbox.clientsClaim();
