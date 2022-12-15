@@ -28,23 +28,23 @@ function App() {
             <ImMenu className='iconWhite' onClick={handleToggle} />
           </div>
           <nav className="nav">
-            <NavLink to='/'>
+            <NavLink to='/' onClick={handleToggle}>
               Início
             </NavLink>
 
-            <NavLink to='/biografia'>
+            <NavLink to='/biografia' onClick={handleToggle}>
               Biografia
             </NavLink>
 
-            <NavLink to='/experiencias'>
+            <NavLink to='/experiencias' onClick={handleToggle}>
               Experiências
             </NavLink>
 
-            <NavLink to='/formacao'>
+            <NavLink to='/formacao' onClick={handleToggle}>
               Cursos
             </NavLink>
 
-            <NavLink to='/skills'>
+            <NavLink to='/skills' onClick={handleToggle}>
               Skills
             </NavLink>
           </nav>
