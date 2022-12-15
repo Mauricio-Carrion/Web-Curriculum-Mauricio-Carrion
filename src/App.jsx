@@ -15,8 +15,12 @@ function App() {
   }
 
   const handleToggle = () => {
+    const width = document.body.clientWidth
     const nav = document.querySelector('.nav')
-    nav.classList.toggle('showNav')
+
+    if (width < 580) {
+      nav.classList.toggle('showNav')
+    }
   }
 
   return (

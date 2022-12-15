@@ -46,6 +46,8 @@ import {
 
 import { ImFire } from 'react-icons/im'
 import { TbApi } from 'react-icons/tb'
+import { FiFigma } from 'react-icons/fi'
+
 import scrollToTop from "../utils"
 
 const Skills = () => {
@@ -82,6 +84,7 @@ const Skills = () => {
         <li><TbApi />Rest</li>
         <li><MdDesignServices />Design</li>
         <li><SiAdobephotoshop />Photoshop</li>
+        <li><FiFigma />Figma</li>
         <li><GiMegaphone />Marketing</li>
         <li><AiOutlineShareAlt />Social Media</li>
       </ul>
