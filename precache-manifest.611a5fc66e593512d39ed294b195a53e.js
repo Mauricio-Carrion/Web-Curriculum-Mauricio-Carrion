@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "87d92ccd34750cf409a3",
-    "url": "/Web-Curriculum-Mauricio-Carrion/static/css/main.d5d4fd1b.chunk.css"
+    "revision": "d4ab54c81cc0d460cb18",
+    "url": "/Web-Curriculum-Mauricio-Carrion/static/css/main.f9ddb912.chunk.css"
   },
   {
-    "revision": "87d92ccd34750cf409a3",
-    "url": "/Web-Curriculum-Mauricio-Carrion/static/js/main.87d92ccd.chunk.js"
+    "revision": "d4ab54c81cc0d460cb18",
+    "url": "/Web-Curriculum-Mauricio-Carrion/static/js/main.d4ab54c8.chunk.js"
   },
   {
     "revision": "a8da26c1e9fe51227754",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/Web-Curriculum-Mauricio-Carrion/static/media/Quicksand-Medium.890d9ed9.ttf"
   },
   {
-    "revision": "6a053c9a6ba09172adbacfcb7a4bd537",
+    "revision": "08d86b6937bb48d85a3ed7bef5469550",
     "url": "/Web-Curriculum-Mauricio-Carrion/index.html"
   }
 ];
