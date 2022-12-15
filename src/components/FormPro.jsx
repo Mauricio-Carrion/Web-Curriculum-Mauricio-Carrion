@@ -1,7 +1,10 @@
 import React from "react"
 import './FormPro.css'
+import scrollToTop from "../utils"
 
 const FormPro = () => {
+  scrollToTop()
+
   return (
     <div className="FormPro">
       <ul>

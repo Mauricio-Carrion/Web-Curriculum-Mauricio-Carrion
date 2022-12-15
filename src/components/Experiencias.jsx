@@ -1,7 +1,10 @@
 import React from "react"
 import './Experiencias.css'
+import scrollToTop from "../utils"
 
 const Experiencias = () => {
+  scrollToTop()
+
   return (
     <div className="Experiencias">
       <ul>

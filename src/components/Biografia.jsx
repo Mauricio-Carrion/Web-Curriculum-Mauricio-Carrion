@@ -1,7 +1,10 @@
 import React from "react"
 import './Biografia.css'
+import scrollToTop from "../utils"
 
 const Biografia = () => {
+  scrollToTop()
+
   return (
     <div className="Biografia">
       <p>

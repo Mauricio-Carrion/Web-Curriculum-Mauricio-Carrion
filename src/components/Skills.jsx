@@ -14,9 +14,20 @@ import {
   FaReact,
   FaNodeJs
 } from 'react-icons/fa'
+
 import { BsFillGearFill } from 'react-icons/bs'
-import { GiCircuitry, GiMegaphone } from 'react-icons/gi'
-import { MdRouter, MdNetworkCheck, MdDesignServices } from 'react-icons/md'
+
+import {
+  GiCircuitry,
+  GiMegaphone
+} from 'react-icons/gi'
+
+import {
+  MdRouter,
+  MdNetworkCheck,
+  MdDesignServices
+} from 'react-icons/md'
+
 import {
   SiMicrosoftoffice,
   SiUbiquiti,
@@ -25,12 +36,21 @@ import {
   SiMysql,
   SiAdobephotoshop
 } from 'react-icons/si'
+
 import { RiEnglishInput } from 'react-icons/ri'
-import { AiOutlineConsoleSql, AiOutlineShareAlt } from 'react-icons/ai'
+
+import {
+  AiOutlineConsoleSql,
+  AiOutlineShareAlt
+} from 'react-icons/ai'
+
 import { ImFire } from 'react-icons/im'
 import { TbApi } from 'react-icons/tb'
+import scrollToTop from "../utils"
 
 const Skills = () => {
+  scrollToTop()
+
   return (
     <div className="Skills">
       <ul>

@@ -1,9 +1,12 @@
 import React from "react"
 import './Inicio.css'
+import scrollToTop from "../utils"
 import perfilImg from '../assets/img/20200401_130928.jpg'
 import { AiOutlineMail, AiOutlinePhone, AiFillLinkedin, AiOutlineWhatsApp } from 'react-icons/ai'
 
 const Inicio = () => {
+  scrollToTop()
+
   return (
     <div className="Inicio">
       <img src={perfilImg} alt="perfil" className="inicioImg" />
