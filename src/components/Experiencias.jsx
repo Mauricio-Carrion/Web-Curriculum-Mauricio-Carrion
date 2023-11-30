@@ -9,6 +9,35 @@ const Experiencias = () => {
     <div className="Experiencias">
       <ul>
         <li>
+          <h4>Desenvolvedor Júnior II - SCADIAgro Software de Gestão</h4>
+          <strong>Fevereiro 2023 - atualmente - Remoto</strong>
+          <br />
+          Desenvolvimento de back-end;<br />
+          Interface de programação de aplicativos (API);<br />
+          TypeScript;<br />
+          Programação orientada a objetos (POO);<br />
+          Java;<br />
+          Next.js;<br />
+          Desenvolvimento de front-end;<br />
+          Docker;<br />
+          Grafana;<br />
+          Prometheus;<br />
+          Microsoft SQL Server;<br />
+          JavaScript;<br />
+          Express.js;<br />
+          Redes de computadores;<br />
+          Node.js;<br />
+          Git;<br />
+          Banco de dados;<br />
+          CSS;<br />
+          HTML5;<br />
+          SQL;<br />
+          Linux;<br />
+        </li>
+
+        <hr />
+        
+        <li>
           <h4>Analista de Suporte TI - JF System Softhouse</h4>
           <strong>Junho 2021 - atualmente - São José do Norte, RS</strong>
           <br />
