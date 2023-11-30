@@ -62,6 +62,50 @@ const FormPro = () => {
           UniDados - Felipe Mafra
         </li>
 
+        <li>
+          <h4>PostgreSQL</h4>
+          Alura
+        </li>
+
+        <li>
+          <h4>SOLID com Java: princípios da programação orientada a objetos</h4>
+          Alura
+        </li>
+
+        <li>
+          <h4>Java Collections: Dominando Listas, Sets e Mapas</h4>
+          Alura
+        </li>
+
+        <li>
+          <h4>Java Exceções: aprenda a criar, lançar e controlar exceções</h4>
+          Alura
+        </li>
+
+        <li>
+          <h4>Java Polimorfismo: entenda herança e interfaces</h4>
+          Alura
+        </li>
+
+        <li>
+          <h4>Java JRE e JDK: compile e execute o seu programa</h4>
+          Alura
+        </li>
+
+        <li>
+          <h4>Java OO: entendendo a Orientação a Objetos</h4>
+          Alura
+        </li>
+
+        <li>
+          <h4>Java Básico</h4>
+          Curso em Vídeo
+        </li>
+
+        <li>
+          <h4>Jornada DevOps de Elite</h4>
+          Fabricio Veronez
+        </li>
       </ul>
     </div>
   )
